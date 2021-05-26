@@ -30,7 +30,7 @@ public interface TaskList {
 	public Collection getTopLevelTasks();
 	
     public Collection getAllSubTasks(String taskId);
-    public Collection getActiveSubTasks(String taskId,CalendarDate date);
+    public Collection getActiveSubTasks(String taskId,CalendarDate date + 1);
     
 //    public void adjustParentTasks(Task t);
     
