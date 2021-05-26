@@ -48,7 +48,7 @@ public class Start {
             try {
                 // Try to open a socket. If socket opened successfully (app is already started), take no action and exit.
                 Socket socket = new Socket("127.0.0.1", DEFAULT_PORT);
-                socket.close();
+                //socket.close();
                 System.exit(0);
                 
             } catch (Exception e) {
